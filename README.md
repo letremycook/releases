@@ -6,7 +6,8 @@ Quick install for letremycook (and other devs while the repo is private):
     gh release download 2026.05.03 -R letremycook/releases -p remy.exe -D $HOME\bin
     remy --version    
 '''
-  (add $HOME\bin to PATH once)
+
+(add $HOME\bin to PATH once)
 
 As soon as the repo is public, we can use scoop, which will autoamtically run updates of the software upon user request and manage the package for us. This works for now only on Windows, because you can't cross-compile with nuitika. 
   Scoop install (the future end-user path, once letremycook/releases flips public):
